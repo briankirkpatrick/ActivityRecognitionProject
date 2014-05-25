@@ -23,7 +23,7 @@ abbreviations will be maintained:
 * Mag stands for magnitude
 	
 The variable names have been manipulated into Camel and dot notation to enhance readability and conform with most standard style guides.
-The following rules were followed:
+The following rules were applied:
 * signal type, measurement (whether mean or standard deviation) and x,y,z direction (if applicable) were separated by dot notation
 * signal types use Camel notation to highlight separate words
 * standard deviation was abbreviated as std
@@ -42,12 +42,12 @@ The following rules were followed:
 	* walking
 
 tBodyAcc: num - mean and standard deviation calculations of time series body acceleration signals measured in the x, y and z planes.  Calculations are a summary of all measurements taken for each activity performed by a given subject.
-3. tBodyAcc.mean.x
-4. tBodyAcc.mean.y
-5. tBodyAcc.mean.z
-6. tBodyAcc.std.x
-7. tBodyAcc.std.y
-8. tBodyAcc.std.z
+	3. tBodyAcc.mean.x
+	4. tBodyAcc.mean.y
+	5. tBodyAcc.mean.z
+	6. tBodyAcc.std.x
+	7. tBodyAcc.std.y
+	8. tBodyAcc.std.z
 
 tGravityAcc: num - mean and standard deviation calculations of time series gravity acceleration signals measured in the x, y and z planes. Calculations are a summary of all measurements taken for each activity performed by a given subject.
 9. tGravityAcc.mean.x
