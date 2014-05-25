@@ -85,5 +85,4 @@ library(reshape2)
   #output the data set to a txt file
   write.table(summaryData, "./tidy_data.txt")
 
-  #output the data set to a csv file
-  write.csv(summaryData, "./tidy_data.csv", row.names = FALSE)
+print("Script Completed")

@@ -33,7 +33,7 @@ The project assumes you have downloaded the data set from the above link and tha
 
 No processing was done directly to the files, all processing was completed utilizing the R script attached here.
 
-The script is intended to be run line by line and not as a fully executable program, as there are a couple of checks built in that require the user to review before proceeding.
+While this script can be run standalone in its entirety, it is intended to be run line by line and not as a fully executable program, as there are a couple of checks built in that the user should review before proceeding.
 
 The script is extensively commented with regard to step-by-step descriptions of the code.
 
