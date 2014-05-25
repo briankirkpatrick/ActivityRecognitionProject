@@ -25,6 +25,14 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 ###Project Description
 This project is intended to convert the supplied data into a single useable data set that isolates "key" variables into a tidy data set for further analysis.
 
+This project does not differentiate between training subjects or test subjects.
+
+The variables selected were the mean and standard deviations of the estimate variables calculated for each of the signal patterns.
+MeanFreq() variables were not included as the goal was to isolate the mean values and standard deviations of the signal variables and not the average number of times they were measured.
+Angle()mean variables were not included as the purpose of the research request was to identify the mean and standard deviations for the signal variables. This angle set of variables is the mean of a signal type applied to an additional variable derived from the measurements themselves, angle. Further, there are no corresponding standard deviation measurements to these variables which will limit the usefulness of the aggregated statistics.
+
+The end results is a summary of the average mean and average standard deviation of the signal data for each participant further broken down to each of the 6 activities the participant completed.
+
 ###Project Notes and Assumptions
 
 This project was written using RStudio Version 0.98.507 – © 2009-2013 RStudio, Inc. on a machine using Windows 7 - Service Pack 1.
@@ -33,7 +41,7 @@ The project assumes you have downloaded the data set from the above link and tha
 
 No processing was done directly to the files, all processing was completed utilizing the R script attached here.
 
-While this script can be run standalone in its entirety, it is intended to be run line by line and not as a fully executable program, as there are a couple of checks built in that the user should review before proceeding.
+While this script can be run standalone in its entirety, it is intended to be run line by line and not as a fully executable program, as there are a couple of checks built in that the user should review before proceeding to the next step (these are noted as comments in the script).
 
 The script is extensively commented with regard to step-by-step descriptions of the code.
 
@@ -45,10 +53,10 @@ There is a CodeBook.MD file with more information on the variables and data
 The data set is referenced above but the script is dependent on the following files specifically:
 * features.txt
 * subject_test.txt
-* x_test.txt
+* X_test.txt
 * y_test.txt
 * subject_train.txt
-* x_train.txt
+* X_train.txt
 * y_train.txt
 * activity_labels.txt
 
