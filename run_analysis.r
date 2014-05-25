@@ -84,7 +84,8 @@ library(reshape2)
   names(summaryData) <- gsub("X", "x", names(summaryData))  
   names(summaryData) <- gsub("Y", "y", names(summaryData))
   names(summaryData) <- gsub("Z", "z", names(summaryData))
-
+  names(summaryData) <- gsub("BodyBody", "Body", names(summaryData))
+  
   #output the data set to a txt file
   write.table(summaryData, "./tidy_data.txt")
 

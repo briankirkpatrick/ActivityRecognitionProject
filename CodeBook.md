@@ -21,6 +21,7 @@ abbreviations will be maintained:
 * Acc stands for acceleration
 * Gyro stands for gyroscope
 * Mag stands for magnitude
+* the accidental double "BodyBody" in some variable names were replaced with a single "Body" as the original project code book describes
 	
 The variable names have been manipulated into Camel and dot notation to enhance readability and conform with most standard style guides.
 The following rules were applied:
@@ -145,15 +146,15 @@ fBodyAccMag: num - mean and standard deviation calculations of the magnitude of 
 
 fBodyAccJerkMag: num - mean and standard deviation calculations of the magnitude of the three dimensional frequency domain signals of the body linear acceleration (or Jerk). Calculations are a summary of all measurements taken for each activity performed by a given subject.
 
-* 63. fBodyBodyAccJerkMag.mean
-* 64. fBodyBodyAccJerkMag.std
+* 63. fBodyAccJerkMag.mean
+* 64. fBodyAccJerkMag.std
 
 fBodyGyroMag: num - mean and standard deviation calculations of the magnitude of the three dimensional frequency domain signals of the body gyroscope.  Calculations are a summary of all measurements taken for each activity performed by a given subject.
 
-* 65. fBodyBodyGyroMag.mean
-* 66. fBodyBodyGyroMag.std
+* 65. fBodyGyroMag.mean
+* 66. fBodyGyroMag.std
 
 fBodyGyroJerkMag: num - mean and standard deviation calculations of the magnitude of the three-dimensional frequency domain signals of the body angular velocity (or Jerk). Calculations are a summary of all measurements taken for each activity performed by a given subject.
 
-* 67. fBodyBodyGyroJerkMag.mean
-* 68. fBodyBodyGyroJerkMag.std
+* 67. fBodyGyroJerkMag.mean
+* 68. fBodyGyroJerkMag.std
