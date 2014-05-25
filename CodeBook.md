@@ -51,6 +51,7 @@ tBodyAcc: num - mean and standard deviation calculations of time series body acc
 8. tBodyAcc.std.z
 
 tGravityAcc: num - mean and standard deviation calculations of time series gravity acceleration signals measured in the x, y and z planes. Calculations are a summary of all measurements taken for each activity performed by a given subject.
+
 9. tGravityAcc.mean.x
 10. tGravityAcc.mean.y
 11. tGravityAcc.mean.z
@@ -59,6 +60,7 @@ tGravityAcc: num - mean and standard deviation calculations of time series gravi
 14. tGravityAcc.std.z
 
 tBodyAccJerk: num - mean and standard deviation calculations of the time series body linear acceleration (or Jerk) signals measured in the x, y and z planes. Calculations are a summary of all measurements taken for each activity performed by a given subject.
+
 15. tBodyAccJerk.mean.x
 16. tBodyAccJerk.mean.y
 17. tBodyAccJerk.mean.z
@@ -67,6 +69,7 @@ tBodyAccJerk: num - mean and standard deviation calculations of the time series 
 20. tBodyAccJerk.std.z
 
 tBodyGyro: num - mean and standard deviation calculations of time series body gyroscope signals measured in the x, y and z planes.  Calculations are a summary of all measurements taken for each activity performed by a given subject.
+
 21. tBodyGyro.mean.x
 22. tBodyGyro.mean.y
 23. tBodyGyro.mean.z
@@ -75,6 +78,7 @@ tBodyGyro: num - mean and standard deviation calculations of time series body gy
 26. tBodyGyro.std.z
 
 tBodyGyroJerk: num - mean and standard deviation calculations of the time series body angular velocity (or Jerk) signals measured in the x, y and z planes. Calculations are a summary of all measurements taken for each activity performed by a given subject.
+
 27. tBodyGyroJerk.mean.x
 28. tBodyGyroJerk.mean.y
 29. tBodyGyroJerk.mean.z
@@ -83,26 +87,32 @@ tBodyGyroJerk: num - mean and standard deviation calculations of the time series
 32. tBodyGyroJerk.std.z
 
 tBodyAccMag: num - mean and standard deviation calculations of the magnitude of the three-dimensional time series body acceleration signals.  Calculations are a summary of all measurements taken for each activity performed by a given subject.
+
 33. tBodyAccMag.mean
 34. tBodyAccMag.std
 
 tGravityAccMag: num - mean and standard deviation calculations of the magnitude of the three-dimensional time series gravity acceleration signals. Calculations are a summary of all measurements taken for each activity performed by a given subject.
+
 35. tGravityAccMag.mean
 36. tGravityAccMag.std
 
 tBodyAccJerkMag: num - mean and standard deviation calculations of the magnitude of the three-dimensional time series body linear acceleration (or Jerk) signals. Calculations are a summary of all measurements taken for each activity performed by a given subject.
+
 37. tBodyAccJerkMag.mean
 38. tBodyAccJerkMag.std
 
 tBodyGyroMag: num - mean and standard deviation calculations of the magnitude of the three-dimensional time series body gyroscope signals.  Calculations are a summary of all measurements taken for each activity performed by a given subject.
+
 39. tBodyGyroMag.mean
 40. tBodyGyroMag.std
 
 tBodyGyroJerkMag: num - mean and standard deviation calculations of the magnitude of the three-dimensional time series body angular velocity (or Jerk) signals. Calculations are a summary of all measurements taken for each activity performed by a given subject.
+
 41. tBodyGyroJerkMag.mean
 42. tBodyGyroJerkMag.std
 
 fBodyAcc: num - mean and standard deviation calculations of the frequency domain signals of the body acceleration measured in the x, y and z planes.  Calculations are a summary of all measurements taken for each activity performed by a given subject.
+
 43. fBodyAcc.mean.x
 44. fBodyAcc.mean.y
 45. fBodyAcc.mean.z
@@ -111,6 +121,7 @@ fBodyAcc: num - mean and standard deviation calculations of the frequency domain
 48. fBodyAcc.std.z
 
 fBodyAccJerk: num - mean and standard deviation calculations of the frequency domain signals of the body linear acceleration (or Jerk) measured in the x, y and z planes. Calculations are a summary of all measurements taken for each activity performed by a given subject.
+
 49. fBodyAccJerk.mean.x
 50. fBodyAccJerk.mean.y
 51. fBodyAccJerk.mean.z
@@ -119,6 +130,7 @@ fBodyAccJerk: num - mean and standard deviation calculations of the frequency do
 54. fBodyAccJerk.std.z
 
 fBodyGyro: num - mean and standard deviation calculations of the frequency domain signals of the body gyroscope measured in the x, y and z planes.  Calculations are a summary of all measurements taken for each activity performed by a given subject.
+
 55. fBodyGyro.mean.x
 56. fBodyGyro.mean.y
 57. fBodyGyro.mean.z
@@ -127,17 +139,21 @@ fBodyGyro: num - mean and standard deviation calculations of the frequency domai
 60. fBodyGyro.std.z
 
 fBodyAccMag: num - mean and standard deviation calculations of the magnitude of the three dimensional frequency domain signals of the body acceleration.  Calculations are a summary of all measurements taken for each activity performed by a given subject.
+
 61. fBodyAccMag.mean
 62. fBodyAccMag.std
 
 fBodyAccJerkMag: num - mean and standard deviation calculations of the magnitude of the three dimensional frequency domain signals of the body linear acceleration (or Jerk). Calculations are a summary of all measurements taken for each activity performed by a given subject.
+
 63. fBodyBodyAccJerkMag.mean
 64. fBodyBodyAccJerkMag.std
 
 fBodyGyroMag: num - mean and standard deviation calculations of the magnitude of the three dimensional frequency domain signals of the body gyroscope.  Calculations are a summary of all measurements taken for each activity performed by a given subject.
+
 65. fBodyBodyGyroMag.mean
 66. fBodyBodyGyroMag.std
 
 fBodyGyroJerkMag: num - mean and standard deviation calculations of the magnitude of the three-dimensional frequency domain signals of the body angular velocity (or Jerk). Calculations are a summary of all measurements taken for each activity performed by a given subject.
+
 67. fBodyBodyGyroJerkMag.mean
 68. fBodyBodyGyroJerkMag.std
