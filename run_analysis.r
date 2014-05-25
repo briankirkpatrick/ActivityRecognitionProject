@@ -78,9 +78,12 @@ library(reshape2)
   #use dcast to reshape and summarize the data for the mean of each variable by subject by activity
   summaryData <- dcast(dataMelt, subject.id.number + activity ~ variable, mean)
   
-  #adjust variable names of final set to remove unneeded periods
+  #adjust variable names of final set to remove unneeded periods and convert directional marker to lower case
   names(summaryData) <- gsub("\\.\\.\\.","\\.", names(summaryData))
   names(summaryData) <- gsub("\\.\\.","", names(summaryData))
+  names(summaryData) <- gsub("X", "x", names(summaryData))  
+  names(summaryData) <- gsub("Y", "y", names(summaryData))
+  names(summaryData) <- gsub("Z", "z", names(summaryData))
 
   #output the data set to a txt file
   write.table(summaryData, "./tidy_data.txt")
