@@ -17,18 +17,18 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 Certain abbreviations exist in the variable names in the data set that are inherited from the original data. I have chosen
 to maintain those abbreviations for ease of use, cross-referencing and the intention that this data should be easily useable for later data exploration. The following
 abbreviations will be maintained:
-	* t & f as the leading character differentiate between time series and frequency domain signals, respectively
-	* Acc stands for acceleration
-	* Gyro stands for gyroscope
-	* Mag stands for magnitude
+* t & f as the leading character differentiate between time series and frequency domain signals, respectively
+* Acc stands for acceleration
+* Gyro stands for gyroscope
+* Mag stands for magnitude
 	
 The variable names have been manipulated into Camel and dot notation to enhance readability and conform with most standard style guides.
 The following rules were followed:
-	* signal type, measurement (whether mean or standard deviation) and x,y,z direction (if applicable) were separated by dot notation
-	* signal types use Camel notation to highlight separate words
-	* standard deviation was abbreviated as std
-	* x axis, y axis and z axis were abbreviated as x, y and z respectively
-	* data should read: signalType.measurementType.directionalAxis
+* signal type, measurement (whether mean or standard deviation) and x,y,z direction (if applicable) were separated by dot notation
+* signal types use Camel notation to highlight separate words
+* standard deviation was abbreviated as std
+* x axis, y axis and z axis were abbreviated as x, y and z respectively
+* data should read: signalType.measurementType.directionalAxis
 
 ####Variables	
 	
