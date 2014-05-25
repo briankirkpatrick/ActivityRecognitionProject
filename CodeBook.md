@@ -42,12 +42,13 @@ The following rules were applied:
 	* walking
 
 tBodyAcc: num - mean and standard deviation calculations of time series body acceleration signals measured in the x, y and z planes.  Calculations are a summary of all measurements taken for each activity performed by a given subject.
-	3. tBodyAcc.mean.x
-	4. tBodyAcc.mean.y
-	5. tBodyAcc.mean.z
-	6. tBodyAcc.std.x
-	7. tBodyAcc.std.y
-	8. tBodyAcc.std.z
+
+3. tBodyAcc.mean.x
+4. tBodyAcc.mean.y
+5. tBodyAcc.mean.z
+6. tBodyAcc.std.x
+7. tBodyAcc.std.y
+8. tBodyAcc.std.z
 
 tGravityAcc: num - mean and standard deviation calculations of time series gravity acceleration signals measured in the x, y and z planes. Calculations are a summary of all measurements taken for each activity performed by a given subject.
 9. tGravityAcc.mean.x
