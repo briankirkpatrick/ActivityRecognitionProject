@@ -10,6 +10,10 @@ Also see the UCI Machine Learning Repository website for more details (link belo
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#
 
+###Data Manipulation
+All data manipulation was performed within the script and the script contains notes for each step.
+Please see the run_analysis.r file to review how the data was transformed.
+
 ###Variables and Variable Naming
 
 ####Variable Naming
